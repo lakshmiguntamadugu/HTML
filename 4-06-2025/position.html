@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .dropdown{
+            width:150px;
+        }
+        .dropdown-menu{
+            display:none;
+            background-color:lightgray;
+            padding:10px;
+            left:20px;
+            top:130px;
+            width:150px;
+            position:absolute;
+            z-index:1;
+        }
+        .dropdown:hover .dropdown-menu{
+            display:block;
+        }
+        .dropdown-btn{
+            width:150px;
+            padding:5px;
+        }
+        nav{
+            background-color:grey;
+            padding:10px;
+            position:sticky;
+            top:0px;
+        }
+        .nav-item{
+            display:inline;
+            margin-left:10px;
+        }
+        .nav-link{
+            text-decoration:none;
+            color:black;
+            font-size:15px;
+        }
+        .mycontent{
+            height:150px;
+            width:200px;
+            border:1px solid red;
+            padding:40px;
+            box-sizing:border-box;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Tech jobs</h1>
+    <h3>hyd</h3>
+    <nav>
+        <ul>
+            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="dropdown">
+        <button class="dropdown-btn">Display menu</button>
+        <ul class="dropdown-menu">
+        <li><a href="">Fullstack</a></li>
+        <li><a href="">Datascience</a></li>
+        <li><a href="">solartraining</a></li>
+        <li><a href="">EV tech</a></li>
+        </ul>
+    </div>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<div class="mycontent">
+    <h1>Hello world</h1>
+</div>
+</body>
+</html>

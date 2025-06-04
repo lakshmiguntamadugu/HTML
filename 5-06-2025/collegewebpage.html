@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>collegewebpage</title>
+    <style>
+        .img-logo{
+            width: 200px;
+            margin-top:15px ;
+            margin-left:10px;
+        }
+        li{
+          display: inline-block;
+          margin-top: 10px;
+          margin-left: 30px;
+            
+        }
+        .nav-items{
+            display: block;
+            margin-left: 340px;
+            margin-top: -35px;
+            
+        }
+        a{
+           font-size: 20px;
+            color:black;
+            text-decoration: none;
+            
+        }
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: white;
+          width: 160px;
+          box-shadow: 0px 4px 8px grey;
+          z-index: 1;
+    }
+
+    .dropdown-content a {
+      display: block;
+      padding: 10px;
+      font-size: 18px;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    #img-cover{
+        width: 1250px;
+        height: 650px;
+        overflow:none;
+    }
+    .h1{
+        color: white;
+        margin-top: -400px;
+        margin-left: 20px;
+        font-size: 70px;
+        
+    }
+    a:hover,focus{
+        color:blue;
+    }
+</style>
+</head>
+<body>
+  <img class="img-logo" src="collegeimg1.png" alt="">
+  <nav class="nav-menu">
+    <ul class="nav-items">
+    <li><a href="">Home</a></li>
+
+    <li class="dropdown">
+        <a href="">About us<i class="fa-solid fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="">Overview</a>
+          <a href="">Our People</a>
+          <a href="">History</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="">Work Areas<i class="fa-solid fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="">Health Care</a>
+          <a href="">Education</a>
+          <a href="">Skill Development</a>
+          <a href="">Inclusion</a>
+          <a href="">Rural Livelihoods</a>
+        </div>
+      </li>
+
+      <li class="dropdown">
+        <a href="">Resources<i class="fa-solid fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="">Stratagy/papers</a>
+          <a href="">Blogs/Articles</a>
+          <a href="">Annual Reports</a>
+          <a href="">Financial Reports</a>
+        </div>
+      </li>
+      
+      <li><a href="">Impact Stories</a></li>
+      <li><a href="">Careers</a></li>
+      <li><a href="">Contact us</a></li>
+    
+</div>
+</ul>
+<br>
+<img id="img-cover" src="drf.jpg" alt="" >
+</nav>
+</body>
+</html>
+    
