@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=124;
+        let temp=num;
+        let fact,sum=0;
+        while(num!=0){
+            rem=num%10;
+            fact=1;
+            for(i=1;i<=rem;i++){
+                fact=fact*i;
+            }
+            sum+=fact;
+            num=parseInt(num/10);
+        }
+        if(sum==temp)
+        console.log(`${temp}is strong`);
+       else
+       console.log(`${temp}is not strong`);
+    </script>
+</body>
+</html>
