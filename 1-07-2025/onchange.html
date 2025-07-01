@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myh1">Tech jobs</h1>
+    <h1>view in big screen</h1>
+    <label for="">date of birth(year)</label>
+    <input type="text" placeholder="enter year" id="year" onchange="hello()">
+    <label for="" id="result"></label>
+    <br>
+    <label for="">place</label>
+    <input type="text" name="" id="">
+    <script>
+        function hello(){
+            var year=document.getElementById("year").value;
+            var age=2025-year
+            document.getElementById("result").innerHTML=`you are ${age} year old`
+
+        }
+    </script>
+
+</body>
+</html>

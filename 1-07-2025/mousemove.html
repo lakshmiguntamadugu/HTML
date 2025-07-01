@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onmousemove="hello(event)">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script>
+        function hello(e){
+            var x=e.Clientx;
+            var y=e.Clienty;
+            document.getElementById("coord").innerHTML=`co ordinates x:${x} y:${y}`
+        }
+    </script>
+    
+</body>
+</html>
